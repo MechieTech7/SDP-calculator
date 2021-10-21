@@ -2,7 +2,7 @@ package com.sdp;
 
 public class MultiplicationOperator implements IOperator {
     @Override
-    public void executeOperation(int a, int b) {
-        System.out.println("MultiplicationOperator result : " + (a * b));
+    public void executeOperation(int Number1, int Number2) {
+        System.out.println("MultiplicationOperator result : " + (Number1 * Number2));
     }
 }
