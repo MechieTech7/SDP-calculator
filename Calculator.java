@@ -6,8 +6,8 @@ public class Calculator {
     {
         _operator = ioperator;
     }
-    public void Calculate(int a, int b)
+    public void Calculate(int Number1, int Number2)
     {
-        _operator.executeOperation(a , b);
+        _operator.executeOperation(Number1 , Number2);
     }
 }
