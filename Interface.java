@@ -1,5 +1,5 @@
 package com.sdp;
 public interface IOperator {
-    void executeOperation (int a, int b);
+    void executeOperation (int Number1, int Number2);
 }
  
